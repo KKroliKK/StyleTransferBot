@@ -1,0 +1,4 @@
+{
+    "API_TOKEN": "<telebot's API token>",
+    "ID_ADMIN": 000000000 // your telegram id (9 numbers)
+}
