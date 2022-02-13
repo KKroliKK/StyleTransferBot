@@ -103,7 +103,7 @@ async def load_photo(message: types.Message, state: FSMContext):
     await state.finish()
 
 
-@dp.message_handler(commands=['view_example'])
+@dp.message_handler(commands=['view_exampl'])
 async def view_example(message : types.Message):
     if message.from_user.id == ID_ADMIN:
 	    await example_photos.read(message)
